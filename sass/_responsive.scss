@@ -1,5 +1,9 @@
 // laptop and down
 @media (max-width:1024px) {
+    .container {
+        width: min-content;
+    }
+
     .container-grid {
         gap: 0.75em;
         grid-auto-columns: 1fr;

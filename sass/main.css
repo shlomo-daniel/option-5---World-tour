@@ -21,8 +21,6 @@ body {
 }
 
 .container {
-  width: -moz-min-content;
-  width: min-content;
   margin: 0 auto;
 }
 
@@ -192,6 +190,10 @@ textarea {
 }
 
 @media (max-width: 1024px) {
+  .container {
+    width: -moz-min-content;
+    width: min-content;
+  }
   .container-grid {
     gap: 0.75em;
     grid-auto-columns: 1fr;
