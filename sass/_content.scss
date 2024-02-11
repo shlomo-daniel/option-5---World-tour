@@ -167,6 +167,11 @@ form {
     font-size: 1rem;
 }
 
+label[for=email],
+label[for=tell-us] {
+    margin-top: 0.625em;
+}
+
 .form-area input {
     background-color: #E5EEFF;
 
@@ -184,6 +189,8 @@ textarea {
 
     border: none;
     border-bottom: 5px solid #0EE1DA;
+
+    resize: none;
 }
 
 .form-area input[type=submit] {
